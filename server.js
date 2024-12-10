@@ -6,7 +6,7 @@ const path = require('path')
 const PORT = process.env.PORT || 3500;
 
 app.get('/', (req, res) => {
-    res.send('Hello World')
+    res.send('<h1 style="color: red;">Hello World</h1>')
 })
 
 app.listen(PORT, () => console.log(`Server is Runing on port ${PORT}`))
